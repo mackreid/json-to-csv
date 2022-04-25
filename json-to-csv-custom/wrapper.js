@@ -1,7 +1,7 @@
 import fs from 'fs'
 
 export const SaveToCsv = async (input, output) => {
-    const headers = [Object.keys(input[0])]
+    const headers = Object.keys(input[0])
     console.log(`LOG: Creating CSV with headers: ${headers}`)
 
     let data = `${headers}\n`

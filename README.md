@@ -11,10 +11,12 @@ npm install
 ## Run
 ### With package
 ```
-node json-to-csv-writer-package/index.js
+cd json-to-csv-writer-package
+node index.js
 ```
 
 ### Custom
 ```
-node json-to-csv-custom/index.js
+cd json-to-csv-custom
+node index.js
 ```
