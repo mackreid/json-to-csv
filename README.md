@@ -1,20 +1,20 @@
-#JSON/JS Object data to csv.
-###Using a package and custom.
+# JSON/JS Object data to csv.
+### Using a package and custom.
 
-##Setup
+## Setup
 Install packages: 
 ```
 cd json-to-csv-writer-package
 npm install
 ```
 
-##Run
-###With package
+## Run
+### With package
 ```
 node json-to-csv-writer-package/index.js
 ```
 
-###Custom
+### Custom
 ```
 node json-to-csv-custom/index.js
 ```
